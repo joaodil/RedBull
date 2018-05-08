@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoinicio"
+    tools:context="com.example.usuario.redbullteam.TelaInicio">
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:id="@+id/im_logo"/>
+
+    <Button
+        android:id="@+id/bt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:layout_marginTop="50px"
+        android:backgroundTint="#030303"
+        android:textColor="#fa0307">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR JOGADOR"
+        android:layout_marginTop="50px"
+        android:id="@+id/bt_cad"
+        android:backgroundTint="#030303"
+        android:textColor="#fa0307">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bt_gols"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GOLS"
+        android:layout_marginTop="50px"
+        android:backgroundTint="#030303"
+        android:textColor="#fa0307">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bt_jogos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JOGOS"
+        android:layout_marginTop="50px"
+        android:backgroundTint="#030303"
+        android:textColor="#fa0307">
+
+    </Button>
+</LinearLayout>

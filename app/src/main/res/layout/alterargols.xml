@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:id="@+id/im_logo"/>
+
+    <EditText
+        android:id="@+id/et_apelido"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_qtdgols"
+        android:hint="Número atualizado de gols"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/bt_alterar"
+        android:text="Atualizar"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#030303"
+        android:textColor="#fa0307"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
