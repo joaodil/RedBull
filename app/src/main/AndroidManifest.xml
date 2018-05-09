@@ -19,7 +19,6 @@
         <activity android:name=".CadastroActivity" />
         <activity android:name=".JogosActivity" />
         <activity android:name=".TimeActivity" />
-        <activity android:name=".Gols1Activity" />
         <activity android:name=".Gols2Activity" />
         <activity android:name=".AlterarGolsActivity" />
         <activity android:name=".JogosMarcadosActivity"></activity>

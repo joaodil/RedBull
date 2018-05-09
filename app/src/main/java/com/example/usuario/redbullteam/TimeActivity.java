@@ -17,9 +17,6 @@ public class TimeActivity extends AppCompatActivity {
         lvTime = (ListView) findViewById(R.id.lv_time);
     }
 
-    private Object findViewById(int lv_time) {
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

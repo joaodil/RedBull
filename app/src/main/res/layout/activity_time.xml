@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/fundotime"
-    tools:context="com.example.usuario.redbullteam.time">
+    tools:context="com.example.usuario.redbullteam.TimeActivity">
 
 
     <ImageView
